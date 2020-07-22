@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" SchemaVersion="85">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="New Music Switch Container" ID="{7A294518-3DF0-4EE8-B539-8FB27A5E8B5A}" ShortID="647735847">
+					<PropertyList>
+						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+						<Property Name="Priority" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Tempo" Type="Real64" Value="155"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D48975E7-1AAE-4E09-BB26-D5E29C0BB225}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Main Loop" ID="{9DA6FD3C-4081-4007-AA73-C3387262860F}" ShortID="540200309">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D48975E7-1AAE-4E09-BB26-D5E29C0BB225}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Hob Goblins Soundtrack Main Loop" ID="{D79820EE-C6EF-4BE9-97BF-39BCAF791C08}" ShortID="834846430">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="101419.365079365"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D48975E7-1AAE-4E09-BB26-D5E29C0BB225}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hob Goblins Soundtrack Main Loop" ID="{C0D90DBE-3B49-4898-A8DD-86B668947AC0}" ShortID="361404365">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hob Goblins Soundtrack Main Loop" ID="{E45F90C7-2A88-4A03-9069-F62ACEB0E69B}" ShortID="116040162">
+													<Language>SFX</Language>
+													<AudioFile>Hob Goblins Soundtrack Main Loop.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9A730918-FF8B-47D0-A00E-CB417D8DFBC0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{142FA01D-DE5E-4353-A56E-B6EBAC9CD8AA}">
+													<ClipList>
+														<MusicClip Name="Hob Goblins Soundtrack Main Loop" ID="{B2F73D68-F985-438F-8663-C5676590138D}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="101419.365079365"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Hob Goblins Soundtrack Main Loop" ID="{E45F90C7-2A88-4A03-9069-F62ACEB0E69B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{AD7093B7-C273-4671-A399-7E1F34CB8495}"/>
+										<MusicCue Name="Exit Cue" ID="{34A70468-6980-41EF-8101-1D605C2C9E46}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="99096.7741935484"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{F99662A4-9F0E-4CF0-84BC-6B1FA1C169CA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{43E32652-C8EC-44A0-AD13-A5DCBE8794F7}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{938950B4-E157-447F-B4BF-8AD14A9F176D}" ShortID="74755067">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8F8841A3-604B-4E15-B973-70395E7D423E}" ShortID="727007643">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Hob Goblins Soundtrack Main Loop" ID="{D79820EE-C6EF-4BE9-97BF-39BCAF791C08}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Start" ID="{DB5339DE-9F9F-4332-84C1-4FC49EA91F2A}" ShortID="656369394">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D48975E7-1AAE-4E09-BB26-D5E29C0BB225}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Hob Goblins Soundtrack Intro Loop" ID="{8ED444B8-DA0B-45E8-B73B-32EE0B7271AD}" ShortID="1006496744">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="7741.95011337869"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D48975E7-1AAE-4E09-BB26-D5E29C0BB225}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hob Goblins Soundtrack Intro Loop" ID="{8368D871-1396-442A-8C0F-F871F963FE0F}" ShortID="935670480">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hob Goblins Soundtrack Intro Loop" ID="{59FCB686-D325-4B0F-BA23-F522B5C9D429}" ShortID="486980052">
+													<Language>SFX</Language>
+													<AudioFile>Hob Goblins Soundtrack Intro Loop.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7F2908CF-8FF1-4D09-9A79-CB45D0F186D0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{74407633-00AC-4F8C-B8D2-E5CB20E895C4}">
+													<ClipList>
+														<MusicClip Name="Hob Goblins Soundtrack Intro Loop" ID="{377D36B8-6C0D-47D9-9100-2B99938015E8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="7741.95011337869"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Hob Goblins Soundtrack Intro Loop" ID="{59FCB686-D325-4B0F-BA23-F522B5C9D429}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{77377F33-A77C-4093-B30D-6AD2A1EE439C}"/>
+										<MusicCue Name="Exit Cue" ID="{18EFE8EF-C305-44AD-8DD4-5D0A6FA0CC0A}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="6193.54838709677"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Hob Goblins Soundtrack Start" ID="{07AFB518-C562-4F0D-A933-F7D95A4A4E75}" ShortID="234113766">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D48975E7-1AAE-4E09-BB26-D5E29C0BB225}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hob Goblins Soundtrack Start" ID="{8AA2A970-CD0D-474D-8D83-C0F8FD863D21}" ShortID="291273342">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hob Goblins Soundtrack Start" ID="{21E734AF-3B49-4E18-A03C-9F0E41D2339A}" ShortID="680038128">
+													<Language>SFX</Language>
+													<AudioFile>Hob Goblins Soundtrack Start.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CEF3B81C-643D-4491-9746-B82834943EB0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D50EC841-9101-40F7-BC8D-0C14DFE07427}">
+													<ClipList>
+														<MusicClip Name="Hob Goblins Soundtrack Start" ID="{5BF314EA-DF79-4852-9EDB-3F89B4FC3EBE}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="2322.58503401361"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Hob Goblins Soundtrack Start" ID="{21E734AF-3B49-4E18-A03C-9F0E41D2339A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{EFDB4EF5-F0CA-4E81-975C-2A4043CC3536}"/>
+										<MusicCue Name="Exit Cue" ID="{625A2DA9-6A49-4A70-AAC3-31E8687509E1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="387.096774193548"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FF47590E-EE45-4C2D-B5BC-EA7EFF68D4BA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{6F95622C-F938-4BDC-BA39-3BFEB5E46149}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A2105318-1F1D-4223-BB08-D67924DCE86A}" ShortID="586551928">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{639A2CB2-CCA0-4C87-B894-FD31D8A4B861}" ShortID="637284116">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Hob Goblins Soundtrack Start" ID="{07AFB518-C562-4F0D-A933-F7D95A4A4E75}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{891AE587-3B0D-469E-8D79-6387A1A3CDC2}" ShortID="243720337">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Hob Goblins Soundtrack Intro Loop" ID="{8ED444B8-DA0B-45E8-B73B-32EE0B7271AD}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{A9281B0F-2EC0-40CF-9AE2-D6BC6901FFCE}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3835593C-61CE-4A6E-9FF0-6F2014E880DF}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{5AFBF34E-621D-45AD-91D2-562644CCEE37}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Main Loop" ID="{9DA6FD3C-4081-4007-AA73-C3387262860F}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Start" ID="{DB5339DE-9F9F-4332-84C1-4FC49EA91F2A}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{109BC66B-0B1C-4C11-8F28-25C6F297837A}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Start" ID="{DB5339DE-9F9F-4332-84C1-4FC49EA91F2A}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Main Loop" ID="{9DA6FD3C-4081-4007-AA73-C3387262860F}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{E175D256-03C5-4BBC-8262-11016BE8566D}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Music" ID="{92036055-5AEF-4188-930A-5465DAE1DC59}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Main_Loop" ID="{E0CC7D82-2AE4-41D8-83DC-D9AA230A0373}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Main Loop" ID="{9DA6FD3C-4081-4007-AA73-C3387262860F}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Start" ID="{BFE88F4C-A757-4FA5-8CD2-1BF2C9592475}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Start" ID="{DB5339DE-9F9F-4332-84C1-4FC49EA91F2A}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{D5D94FDE-0198-457C-BE12-96382330DD21}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Start" ID="{DB5339DE-9F9F-4332-84C1-4FC49EA91F2A}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>D:\Team 17 Project Source Control\Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>D:\Team 17 Project Source Control\Wwise Project\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Team 17 Project Source Control\Wwise Project\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Team 17 Project Source Control\Wwise Project\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3130520577" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Level</ObjectPath>
+			<ShortName>Main_Level</ShortName>
+			<Path>Main_Level.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3034623661" Name="ATMOS" ObjectPath="\Events\Default Work Unit\Main Level\ATMOS"/>
+				<Event Id="2665232655" Name="Blending_Minigame_Start" ObjectPath="\Events\Default Work Unit\Blending Minigame\Blending_Minigame_Start"/>
+				<Event Id="714044821" Name="Blending_Minigame_Stop" ObjectPath="\Events\Default Work Unit\Blending Minigame\Blending_Minigame_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="4293870986" Name="Bubbling" ObjectPath="\Events\Default Work Unit\Main Level\Bubbling"/>
+				<Event Id="2339000019" Name="Farts" ObjectPath="\Events\Default Work Unit\Oven Minigame\Farts"/>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Main Level\Fire"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Player\Footsteps"/>
+				<Event Id="3312069844" Name="Knife" ObjectPath="\Events\Default Work Unit\Slicing Minigame\Knife"/>
+				<Event Id="2333018922" Name="Main_Menu_Start_Game" ObjectPath="\Events\Default Work Unit\UI\Main_Menu_Start_Game"/>
+				<Event Id="4203375351" Name="Menu_Select" ObjectPath="\Events\Default Work Unit\UI\Menu_Select"/>
+				<Event Id="758863303" Name="Money" ObjectPath="\Events\Default Work Unit\Money"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music\Music"/>
+				<Event Id="3227181061" Name="Music_Stop" ObjectPath="\Events\Default Work Unit\Music\Music_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="493307972" Name="Order_Slip" ObjectPath="\Events\Default Work Unit\UI\Order_Slip"/>
+				<Event Id="1429340153" Name="Oven_Hit" ObjectPath="\Events\Default Work Unit\Oven Minigame\Oven_Hit"/>
+				<Event Id="3636366780" Name="Oven_Minigame_Start" ObjectPath="\Events\Default Work Unit\Oven Minigame\Oven_Minigame_Start"/>
+				<Event Id="2565399056" Name="Oven_Minigame_Stop" ObjectPath="\Events\Default Work Unit\Oven Minigame\Oven_Minigame_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="902717029" Name="Pickup_Item" ObjectPath="\Events\Default Work Unit\Player\Pickup_Item"/>
+				<Event Id="2298541892" Name="Player_Movement_Command" ObjectPath="\Events\Default Work Unit\UI\Player_Movement_Command"/>
+				<Event Id="3803999823" Name="Slime" ObjectPath="\Events\Default Work Unit\Main Level\Slime"/>
+				<Event Id="742735832" Name="Slingshot_Projectile_Hit" ObjectPath="\Events\Default Work Unit\Slingshot Minigame\Slingshot_Projectile_Hit"/>
+				<Event Id="1592313777" Name="Slingshot_Projectile_Miss" ObjectPath="\Events\Default Work Unit\Slingshot Minigame\Slingshot_Projectile_Miss"/>
+				<Event Id="1712374770" Name="Slingshot_Release" ObjectPath="\Events\Default Work Unit\Slingshot Minigame\Slingshot_Release"/>
+				<Event Id="1155877783" Name="Slingshot_Tension" ObjectPath="\Events\Default Work Unit\Slingshot Minigame\Slingshot_Tension"/>
+				<Event Id="3204399323" Name="Star_Rating_1" ObjectPath="\Events\Default Work Unit\Main Level\Star Rating\Star_Rating_1"/>
+				<Event Id="3204399320" Name="Star_Rating_2" ObjectPath="\Events\Default Work Unit\Main Level\Star Rating\Star_Rating_2"/>
+				<Event Id="3204399321" Name="Star_Rating_3" ObjectPath="\Events\Default Work Unit\Main Level\Star Rating\Star_Rating_3"/>
+				<Event Id="3204399326" Name="Star_Rating_4" ObjectPath="\Events\Default Work Unit\Main Level\Star Rating\Star_Rating_4"/>
+				<Event Id="3204399327" Name="Star_Rating_5" ObjectPath="\Events\Default Work Unit\Main Level\Star Rating\Star_Rating_5"/>
+				<Event Id="1242291572" Name="Three_Second_Timer" ObjectPath="\Events\Default Work Unit\UI\Three_Second_Timer"/>
+				<Event Id="2330457189" Name="Window" ObjectPath="\Events\Default Work Unit\Main Level\Window"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="32511433" Language="SFX">
+					<ShortName>Slime\Slime_1.wav</ShortName>
+					<Path>SFX\Slime\Slime_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="39667063" Language="SFX">
+					<ShortName>Fart_3.wav</ShortName>
+					<Path>SFX\Fart_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="40214543" Language="SFX">
+					<ShortName>ATMOS_Loop.wav</ShortName>
+					<Path>SFX\ATMOS_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="74185425" Language="SFX">
+					<ShortName>Order_Slip.wav</ShortName>
+					<Path>SFX\Order_Slip_1C9C67B2.wem</Path>
+				</File>
+				<File Id="85424013" Language="SFX">
+					<ShortName>Star_Rating_3_Updated.wav</ShortName>
+					<Path>SFX\Star_Rating_3_Updated_1C9C67B2.wem</Path>
+				</File>
+				<File Id="116040162" Language="SFX">
+					<ShortName>Hob Goblins Soundtrack Main Loop.wav</ShortName>
+					<Path>SFX\Hob Goblins Soundtrack Main Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="117245088" Language="SFX">
+					<ShortName>Bubbling_Loop.wav</ShortName>
+					<Path>SFX\Bubbling_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="159372743" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_1.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="172034549" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_3.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="189580282" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_2.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="251424087" Language="SFX">
+					<ShortName>Item_Pickup_WIP.wav</ShortName>
+					<Path>SFX\Item_Pickup_WIP_1C9C67B2.wem</Path>
+				</File>
+				<File Id="273107654" Language="SFX">
+					<ShortName>Fire Med Intensity_1.wav</ShortName>
+					<Path>SFX\Fire Med Intensity_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="297793268" Language="SFX">
+					<ShortName>Bubbles High Intens.wav</ShortName>
+					<Path>SFX\Bubbles High Intens_F17FB28C.wem</Path>
+				</File>
+				<File Id="305799641" Language="SFX">
+					<ShortName>Slime\Slime_5.wav</ShortName>
+					<Path>SFX\Slime\Slime_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="307450136" Language="SFX">
+					<ShortName>Blender_Layer_3.wav</ShortName>
+					<Path>SFX\Blender_Layer_3_F17FB28C.wem</Path>
+				</File>
+				<File Id="332760213" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_1.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="354136211" Language="SFX">
+					<ShortName>Fart_1.wav</ShortName>
+					<Path>SFX\Fart_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="359756073" Language="SFX">
+					<ShortName>Main_Menu_Start_Game.wav</ShortName>
+					<Path>SFX\Main_Menu_Start_Game_1C9C67B2.wem</Path>
+				</File>
+				<File Id="371841064" Language="SFX">
+					<ShortName>Big_Goblin_Snoring.wav</ShortName>
+					<Path>SFX\Big_Goblin_Snoring_1C9C67B2.wem</Path>
+				</File>
+				<File Id="380403093" Language="SFX">
+					<ShortName>Slingshot Release\Slingshot_Release_2.wav</ShortName>
+					<Path>SFX\Slingshot Release\Slingshot_Release_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="386633904" Language="SFX">
+					<ShortName>Knives_4_Rework.wav</ShortName>
+					<Path>SFX\Knives_4_Rework_1C9C67B2.wem</Path>
+				</File>
+				<File Id="390315491" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_5.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="395049548" Language="SFX">
+					<ShortName>Knives_3_Rework.wav</ShortName>
+					<Path>SFX\Knives_3_Rework_1C9C67B2.wem</Path>
+				</File>
+				<File Id="403080155" Language="SFX">
+					<ShortName>Star_Rating_1_Updated.wav</ShortName>
+					<Path>SFX\Star_Rating_1_Updated_1C9C67B2.wem</Path>
+				</File>
+				<File Id="420726158" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_4.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="423672741" Language="SFX">
+					<ShortName>Slime\Slime_6.wav</ShortName>
+					<Path>SFX\Slime\Slime_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="446505588" Language="SFX">
+					<ShortName>Star_Rating_4_Updated.wav</ShortName>
+					<Path>SFX\Star_Rating_4_Updated_1C9C67B2.wem</Path>
+				</File>
+				<File Id="474039061" Language="SFX">
+					<ShortName>Fart_6.wav</ShortName>
+					<Path>SFX\Fart_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="486980052" Language="SFX">
+					<ShortName>Hob Goblins Soundtrack Intro Loop.wav</ShortName>
+					<Path>SFX\Hob Goblins Soundtrack Intro Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="497778858" Language="SFX">
+					<ShortName>Menu_Select.wav</ShortName>
+					<Path>SFX\Menu_Select_1C9C67B2.wem</Path>
+				</File>
+				<File Id="508715773" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_3.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="509368464" Language="SFX">
+					<ShortName>Knives_1_Rework.wav</ShortName>
+					<Path>SFX\Knives_1_Rework_1C9C67B2.wem</Path>
+				</File>
+				<File Id="528692301" Language="SFX">
+					<ShortName>Fart_4.wav</ShortName>
+					<Path>SFX\Fart_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="550287870" Language="SFX">
+					<ShortName>Blender_Layer_1.wav</ShortName>
+					<Path>SFX\Blender_Layer_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="559247323" Language="SFX">
+					<ShortName>Fire High Intensity_1.wav</ShortName>
+					<Path>SFX\Fire High Intensity_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="574062585" Language="SFX">
+					<ShortName>Slime\Slime_7.wav</ShortName>
+					<Path>SFX\Slime\Slime_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="575918238" Language="SFX">
+					<ShortName>Star_Rating_2_Updated.wav</ShortName>
+					<Path>SFX\Star_Rating_2_Updated_1C9C67B2.wem</Path>
+				</File>
+				<File Id="620402201" Language="SFX">
+					<ShortName>Fart_5.wav</ShortName>
+					<Path>SFX\Fart_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="635740059" Language="SFX">
+					<ShortName>Slime\Slime_4.wav</ShortName>
+					<Path>SFX\Slime\Slime_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="637771414" Language="SFX">
+					<ShortName>Fire Very High Intensity_1.wav</ShortName>
+					<Path>SFX\Fire Very High Intensity_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="641420968" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_5.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="659161544" Language="SFX">
+					<ShortName>Knives_2_Rework.wav</ShortName>
+					<Path>SFX\Knives_2_Rework_1C9C67B2.wem</Path>
+				</File>
+				<File Id="664623988" Language="SFX">
+					<ShortName>Bubbles Low Intens.wav</ShortName>
+					<Path>SFX\Bubbles Low Intens_F17FB28C.wem</Path>
+				</File>
+				<File Id="680038128" Language="SFX">
+					<ShortName>Hob Goblins Soundtrack Start.wav</ShortName>
+					<Path>SFX\Hob Goblins Soundtrack Start_F17FB28C.wem</Path>
+				</File>
+				<File Id="680576256" Language="SFX">
+					<ShortName>Fart_2.wav</ShortName>
+					<Path>SFX\Fart_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="685670057" Language="SFX">
+					<ShortName>WIndow.wav</ShortName>
+					<Path>SFX\WIndow_1C9C67B2.wem</Path>
+				</File>
+				<File Id="790290913" Language="SFX">
+					<ShortName>Money.wav</ShortName>
+					<Path>SFX\Money_1C9C67B2.wem</Path>
+				</File>
+				<File Id="797930773" Language="SFX">
+					<ShortName>Slingshot Release\Slingshot_Release_3.wav</ShortName>
+					<Path>SFX\Slingshot Release\Slingshot_Release_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="806239904" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_2.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="806567518" Language="SFX">
+					<ShortName>Oven_Minigame_Hit.wav</ShortName>
+					<Path>SFX\Oven_Minigame_Hit_1C9C67B2.wem</Path>
+				</File>
+				<File Id="847390134" Language="SFX">
+					<ShortName>Slime\Slime_2.wav</ShortName>
+					<Path>SFX\Slime\Slime_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="862549321" Language="SFX">
+					<ShortName>player_touchinput.wav</ShortName>
+					<Path>SFX\player_touchinput_1C9C67B2.wem</Path>
+				</File>
+				<File Id="875697167" Language="SFX">
+					<ShortName>Slingshot Release\Slingshot_Release_1.wav</ShortName>
+					<Path>SFX\Slingshot Release\Slingshot_Release_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="903111696" Language="SFX">
+					<ShortName>Slime\Slime_3.wav</ShortName>
+					<Path>SFX\Slime\Slime_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="905665323" Language="SFX">
+					<ShortName>Star_Rating_5_Updated.wav</ShortName>
+					<Path>SFX\Star_Rating_5_Updated_1C9C67B2.wem</Path>
+				</File>
+				<File Id="910487222" Language="SFX">
+					<ShortName>Blender_Layer_2.wav</ShortName>
+					<Path>SFX\Blender_Layer_2_F17FB28C.wem</Path>
+				</File>
+				<File Id="948089722" Language="SFX">
+					<ShortName>Slingshot_Tension_1.wav</ShortName>
+					<Path>SFX\Slingshot_Tension_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="964740033" Language="SFX">
+					<ShortName>3_Second_Timer.wav</ShortName>
+					<Path>SFX\3_Second_Timer_1C9C67B2.wem</Path>
+				</File>
+				<File Id="970830589" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_4.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="971954926" Language="SFX">
+					<ShortName>Fire Low Intensity_1.wav</ShortName>
+					<Path>SFX\Fire Low Intensity_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="988964709" Language="SFX">
+					<ShortName>Bubbles Med Intens.wav</ShortName>
+					<Path>SFX\Bubbles Med Intens_F17FB28C.wem</Path>
+				</File>
+				<File Id="1041384160" Language="SFX">
+					<ShortName>Fire Ultra Intensity_1.wav</ShortName>
+					<Path>SFX\Fire Ultra Intensity_1_F17FB28C.wem</Path>
+				</File>
+				<File Id="1051661395" Language="SFX">
+					<ShortName>Fire_Loop.wav</ShortName>
+					<Path>SFX\Fire_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="1066088569" Language="SFX">
+					<ShortName>Slingshot Impact.wav</ShortName>
+					<Path>SFX\Slingshot Impact_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

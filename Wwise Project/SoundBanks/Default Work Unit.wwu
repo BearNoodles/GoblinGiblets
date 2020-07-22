@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E988D4DE-B365-4BEE-BF55-79FC586722F9}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E988D4DE-B365-4BEE-BF55-79FC586722F9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main_Level" ID="{8E4C394A-C45F-4E9E-82D9-095804AC4E85}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Slingshot_Release" ID="{9B68028C-825D-402F-B244-FF3C58EEED6C}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_Stop" ID="{8EE8EBF7-0F91-40EA-B341-7CD0E97BCB1B}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fire" ID="{F2A03783-69E1-410E-B321-4102FA1B698C}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Order_Slip" ID="{4093329B-A344-416A-A457-C70C98FC61E8}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Window" ID="{AB55F412-46B9-41FC-BDC1-42B6B6013646}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Knife" ID="{93F5DFE6-CDE1-4210-993D-8946ECB3239A}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Order_Slip" ID="{4FECC0DA-9B85-4274-831D-8F91CEA3C70A}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Oven_Hit" ID="{1654ADDF-CBEC-42C5-A494-C4466DC5A5F4}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Menu_Select" ID="{E7155C07-4E5A-42C9-92EF-E0FFFB680433}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Money" ID="{407BED2C-B546-42E9-ACCC-AED619B4090C}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{B9F20348-A59F-431C-AB73-10D0B9C2B961}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star_Rating_5" ID="{0DDFD4B0-F51A-4330-BD4D-B03BE1A8825F}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Oven_Minigame_Stop" ID="{A489459D-242F-4331-94DA-3434E3ACE7B1}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star_Rating_1" ID="{A32F6F40-0752-4339-8B48-A8A5C82FB588}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slicing Minigame" ID="{D1AD4C61-D7A9-4375-8D10-105D3443A719}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Three_Second_Timer" ID="{3D5D37D7-9C3D-4447-B42C-3D0BA707B42F}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Oven Minigame" ID="{B39E7CE9-AA68-444D-AE5C-8E20EF9F7293}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slime" ID="{ECA0B57A-60E1-445C-A374-2FA56DD21B68}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star_Rating_4" ID="{B20CF914-0DFC-44F7-BCB1-8254C24F5526}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Oven Minigame" ID="{DBB56945-3AA2-4530-8D5C-1C8006C48672}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slingshot Minigame" ID="{0124D1AC-C20A-4597-93C9-3EC31C4E3FB7}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bubbling" ID="{B4D2E373-0D21-45C3-BC59-3D473D28A7BD}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star Rating" ID="{A0353692-AFD1-45C4-91A8-93C0D7EC5AAD}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star Rating" ID="{30655983-A77E-4617-87F4-6172EA58D6AA}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blender_Layer_3" ID="{1858676F-3626-46BF-BE5B-3202F3D196A6}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Fire_Loop" ID="{DDBA168C-3641-4712-86BD-B5465D80BF01}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star_Rating_3" ID="{3354E28A-B26D-47F5-BF1A-B95342FB9BE1}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slingshot_Projectile_Miss" ID="{706BE7D7-20EA-4834-B8DD-DCC47888F25D}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blender_Layer_2" ID="{B2C1E5E4-CC4B-48A8-9B58-2C9F5B2EC836}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Main Level" ID="{0EBB3921-5FA7-48D5-AAF8-5F093E7768AB}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Star_Rating_2" ID="{6706FB00-BC67-48DB-91C7-09705F0D464E}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slingshot_Projectile_Hit" ID="{3E6A43E0-6770-4922-9E5D-324BC596F6BC}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blending_Minigame_Start" ID="{4EA0DAC3-379E-4976-A941-90C8BE8850B9}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Serving Minigame" ID="{B65FA23D-3AFB-49B8-B98F-04AF489BF619}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="New Blend Container" ID="{39B57642-8F46-49BD-B891-6F9118931D2B}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bubbling_Loop" ID="{D82A243E-A7E5-49CF-A672-322181C86DAE}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ATMOS_Loop" ID="{1E4531CB-E088-4A15-B79F-BEEBAC09F274}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Money" ID="{C2CDAE02-6B70-4A1A-A639-28814A5D1A4F}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Farts" ID="{E633A705-D369-4AFE-A0F4-8D0D0CF6470E}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ATMOS" ID="{71A3245A-D06E-4B03-8FD3-1FA83B56FB3D}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slicing Minigame" ID="{B2BB4CF2-53E6-4B24-9E2F-E0209BD64420}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player_Movement_Command" ID="{DC10AB28-D6C5-4B61-A003-68187A2C0D11}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="WIndow" ID="{48C6927B-5129-4B69-BF1D-2295C6D5E875}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI" ID="{DF2E768C-3322-4BAB-A912-C83007A30265}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blending Minigame" ID="{F275CD13-8BDD-4C51-99FC-0C89176D8582}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{F7040148-4F1F-4C63-97A7-C7FC8318ED4C}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Main_Menu_Start_Game" ID="{FFAF3C90-3881-4C80-A950-803BF3520716}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blending Minigame" ID="{7D12CC2F-74F1-4CA3-8B48-A3BE2059A7D0}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Knife" ID="{29691A0F-534B-4CC6-B769-2D91C4F238D9}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blending_Minigame_Stop" ID="{F6EEB818-FFE4-4CC8-BE9A-204A8443BCAC}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slingshot_Tension" ID="{FA06E2E5-D3ED-4CF2-A1FD-D318A3CA65D3}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Main Level" ID="{F48E1DDA-381E-4D68-A746-523FCB0F40F3}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player" ID="{CA1FE5A0-A31B-4D74-8DE6-463C7C016916}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Blender_Layer_1" ID="{85AA1AAC-440C-4DD0-9824-D1DE95258607}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{4BAC0AFB-CB26-4E63-929D-B9E75910757E}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pickup_Item" ID="{0D90C311-A4EA-4E9E-A800-6BD75739DCCA}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="New Music Switch Container" ID="{7A294518-3DF0-4EE8-B539-8FB27A5E8B5A}" WorkUnitID="{EA351AE6-A1B4-4534-A095-FAE899D40D4E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Oven_Minigame_Start" ID="{D2FC5997-4795-4F4D-BDB6-A6DBD795C383}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Slime" ID="{C1D57027-8D5A-4F77-ABC2-57B3620780C1}" WorkUnitID="{82A4AAD2-B005-4472-8007-D3B4590AABF9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI" ID="{251C4050-C4AA-4F78-84B6-CAAF43FA4E9A}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player" ID="{16057A12-1CB8-4FF4-95F9-72D75E37EBA6}" WorkUnitID="{E3107A73-9DB5-426B-9AC6-36CC33890F2E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

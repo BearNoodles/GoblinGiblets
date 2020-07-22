@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1051932216672836}
+  m_IsPrefabParent: 1
+--- !u!1 &1051932216672836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4688341282110160}
+  - component: {fileID: 114903352288544744}
+  - component: {fileID: 114365732429255650}
+  - component: {fileID: 114840088231870472}
+  - component: {fileID: 114140688244228072}
+  - component: {fileID: 114996751732523514}
+  m_Layer: 0
+  m_Name: GameManager 1
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4688341282110160
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051932216672836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114140688244228072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051932216672836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0977b64251a4333429aad2338336f0ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dish: {fileID: 0}
+  ticket: {fileID: 0}
+  ticketAni: {fileID: 0}
+  completes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ingredients:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stationSprites:
+  - {fileID: 21300000, guid: 58bfbf175ae5a1149a5061be04720adc, type: 3}
+  - {fileID: 21300000, guid: 4f7ed2e11a927bc4d82297fbbfff47b9, type: 3}
+  - {fileID: 21300000, guid: 94415031044830a42b81fd1a7190c013, type: 3}
+  ingredientSprites:
+  - {fileID: 21300000, guid: 691dc078b8fe88d4dad21d50a243c533, type: 3}
+  - {fileID: 21300000, guid: a0950a952f4558e46957062448892b8f, type: 3}
+  - {fileID: 21300000, guid: 1ba8852548df1494cbd56c16603efae4, type: 3}
+  - {fileID: 21300000, guid: 9a5af00131232d043a2f52b4f65a963c, type: 3}
+  - {fileID: 21300000, guid: 020bd74bcab3c8a449bab52e3ab08f17, type: 3}
+  dishSprites:
+  - {fileID: 21300000, guid: 03d8a0542d7cd844a875932973560b58, type: 3}
+  - {fileID: 21300000, guid: 2c1d1fae4a7c55d4987e888b4017d86a, type: 3}
+--- !u!114 &114365732429255650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051932216672836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14521ef6a9c6b3840af2c1f9a52cd7ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSprite1: {fileID: 1706048653279318, guid: 43ed1ccc40ec58e43ac49fe41aca0d89,
+    type: 2}
+  tileSprite2: {fileID: 1906416605074594, guid: e9387fc8466f4334591df8add32f87be,
+    type: 2}
+  tileSprite3: {fileID: 1002529830912918, guid: 1c69dc50e1aea304c9713ff5f07f6c9b,
+    type: 2}
+  tileSprite4: {fileID: 1207513543948188, guid: c7c7526754eb30a41bd3ca1fe6af2142,
+    type: 2}
+  tileSprite5: {fileID: 1253669296204562, guid: f7d442aaff0b37449afa728467f2ae55,
+    type: 2}
+  tileSprite6: {fileID: 1207513543948188, guid: 679706c380afd4241b00b458855300d3,
+    type: 2}
+  tileSprite7: {fileID: 1253669296204562, guid: d20274b82f765e2448e445a247677685,
+    type: 2}
+  tileSprite8: {fileID: 1336965353207746, guid: 3a783204d73daac42aaf4486c7585580,
+    type: 2}
+  tileSprite9: {fileID: 1291762442806440, guid: bd19188cad8e25b4881c213afb59f197,
+    type: 2}
+  tileSprite10: {fileID: 1637053663800436, guid: 2b55db927166f8e4892d74e600f2fbe0,
+    type: 2}
+  tileSprite11: {fileID: 1960867387386384, guid: 3d29fbf1740764b46b039eeaeaf7c0f0,
+    type: 2}
+  TopCounterObject: {fileID: 1291762442806440, guid: 63d72bbed37a8ad47b899ae0ca2d447b,
+    type: 2}
+  TheWallObject: {fileID: 1971724402358214, guid: 76c15faaac92c33448d36c56392f8248,
+    type: 2}
+  OvenObject: {fileID: 1291762442806440, guid: 83abe645478ce03429f94d64414844f7, type: 2}
+  ChoppingObject: {fileID: 1960867387386384, guid: 55b1da6f87ba66b41838526a8fe7f076,
+    type: 2}
+  BlenderObject: {fileID: 1960867387386384, guid: ad4a0177377379042b77b996f71752d3,
+    type: 2}
+  ServeWindowCObject: {fileID: 1960867387386384, guid: 5afa360912a963e49a56d6cc17c39b78,
+    type: 2}
+  ServeWindowOObject: {fileID: 1960867387386384, guid: a52a0ccb978ea584babe7122e82d6e1d,
+    type: 2}
+  TicketWindowCObject: {fileID: 1960867387386384, guid: dbc23d7d44023d14a8ae4c2d22da74ad,
+    type: 2}
+  TicketWindowOObject: {fileID: 1960867387386384, guid: 757d0a4669315004db0c0782cd462d22,
+    type: 2}
+  CoverObject: {fileID: 1740354280468338, guid: 5753b000794f96c408ce4234b59a2f33,
+    type: 2}
+  CubeObject: {fileID: 1982388006821368, guid: 1015c90d1bfdf004faa2eab5098ff3a0, type: 2}
+--- !u!114 &114840088231870472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051932216672836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cffde83073d7746428b02f8879a05f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114903352288544744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051932216672836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a5b56ba646f9cc4ba77b5725079c94c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObject: {fileID: 1535039761711806, guid: 28982e17bb9172f4780dedf596263066,
+    type: 2}
+  ingSpawnerObjectPublic: {fileID: 1830825346679384, guid: df85d424df66fdb498eb4630e5faf629,
+    type: 2}
+  dishObject: {fileID: 1124443527564594, guid: 9e333d2f07857d34a9652b98b6d9522c, type: 2}
+  messSpawnerObjectPublic: {fileID: 1447641396071342, guid: 6ee9e65d3faa89b4dbc9fa9fd94b2a43,
+    type: 2}
+  scoreText: {fileID: 0}
+  timerText: {fileID: 0}
+  state: 0
+--- !u!114 &114996751732523514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051932216672836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8426c9c0e1d27458275e485b4717bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSound:
+    ID: -1909339098
+    valueGuid: 480104f71f4f634c97a7c7fc8318ed4c

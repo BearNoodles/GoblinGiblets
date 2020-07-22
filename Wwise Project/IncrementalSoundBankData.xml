@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="878078161">
+	<Platform GUID="{525B313B-53D9-417B-A419-E17BE27377F4}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Game" Hash="2882288443" Timestamp="1544026028"/>
+				<File Name="Init" Hash="3292214083" Timestamp="1556206822"/>
+				<File Name="Main_Level" Hash="907367164" Timestamp="1556207059"/>
+				<File Name="Wheel_Minigame" Hash="3131310665" Timestamp="1544026008"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="1519271024" Timestamp="1556207059"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{7FEBCD98-01FD-4ADC-A5D5-FAB0E24E58A1}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Game" Hash="2882288443" Timestamp="1544026028"/>
+				<File Name="Init" Hash="1888587027" Timestamp="1556206823"/>
+				<File Name="Main_Level" Hash="907367164" Timestamp="1556207060"/>
+				<File Name="Wheel_Minigame" Hash="3131310665" Timestamp="1544026008"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="4086566814" Timestamp="1556207060"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

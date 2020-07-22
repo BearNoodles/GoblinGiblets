@@ -1,0 +1,121 @@
+Event	ID	Name			Wwise Object Path	Notes
+	493307972	Order_Slip			\Default Work Unit\UI\Order_Slip	
+	714044821	Blending_Minigame_Stop			\Default Work Unit\Blending Minigame\Blending_Minigame_Stop	
+	742735832	Slingshot_Projectile_Hit			\Default Work Unit\Slingshot Minigame\Slingshot_Projectile_Hit	
+	758863303	Money			\Default Work Unit\Money	
+	902717029	Pickup_Item			\Default Work Unit\Player\Pickup_Item	
+	1155877783	Slingshot_Tension			\Default Work Unit\Slingshot Minigame\Slingshot_Tension	
+	1242291572	Three_Second_Timer			\Default Work Unit\UI\Three_Second_Timer	
+	1429340153	Oven_Hit			\Default Work Unit\Oven Minigame\Oven_Hit	
+	1592313777	Slingshot_Projectile_Miss			\Default Work Unit\Slingshot Minigame\Slingshot_Projectile_Miss	
+	1712374770	Slingshot_Release			\Default Work Unit\Slingshot Minigame\Slingshot_Release	
+	2298541892	Player_Movement_Command			\Default Work Unit\UI\Player_Movement_Command	
+	2330457189	Window			\Default Work Unit\Main Level\Window	
+	2333018922	Main_Menu_Start_Game			\Default Work Unit\UI\Main_Menu_Start_Game	
+	2339000019	Farts			\Default Work Unit\Oven Minigame\Farts	
+	2385628198	Footsteps			\Default Work Unit\Player\Footsteps	
+	2565399056	Oven_Minigame_Stop			\Default Work Unit\Oven Minigame\Oven_Minigame_Stop	
+	2665232655	Blending_Minigame_Start			\Default Work Unit\Blending Minigame\Blending_Minigame_Start	
+	2678880713	Fire			\Default Work Unit\Main Level\Fire	
+	3034623661	ATMOS			\Default Work Unit\Main Level\ATMOS	
+	3204399320	Star_Rating_2			\Default Work Unit\Main Level\Star Rating\Star_Rating_2	
+	3204399321	Star_Rating_3			\Default Work Unit\Main Level\Star Rating\Star_Rating_3	
+	3204399323	Star_Rating_1			\Default Work Unit\Main Level\Star Rating\Star_Rating_1	
+	3204399326	Star_Rating_4			\Default Work Unit\Main Level\Star Rating\Star_Rating_4	
+	3204399327	Star_Rating_5			\Default Work Unit\Main Level\Star Rating\Star_Rating_5	
+	3227181061	Music_Stop			\Default Work Unit\Music\Music_Stop	
+	3312069844	Knife			\Default Work Unit\Slicing Minigame\Knife	
+	3636366780	Oven_Minigame_Start			\Default Work Unit\Oven Minigame\Oven_Minigame_Start	
+	3803999823	Slime			\Default Work Unit\Main Level\Slime	
+	3991942870	Music			\Default Work Unit\Music\Music	
+	4203375351	Menu_Select			\Default Work Unit\UI\Menu_Select	
+	4293870986	Bubbling			\Default Work Unit\Main Level\Bubbling	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1265478494	Footstep_Surfaces			\Default Work Unit\Footstep_Surfaces	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Footstep_Surfaces			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1778026429	Oven_Minigame			\Default Work Unit\Oven_Minigame	
+	2627366497	blendingScoreRTPC			\Default Work Unit\blendingScoreRTPC	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3034623661	ATMOS			\Default Work Unit\Master Audio Bus\ATMOS	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1443926675	New_Wwise_Time_Stretch_01	Wwise Time Stretch			
+	2995775460	Room_Small	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32511433	Slime_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_1		177344
+	39667063	Fart_3	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fart_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Farts\Fart_3		441536
+	40214543	ATMOS_Loop	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\ATMOS_Loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\ATMOS_Loop		7985728
+	74185425	Order_Slip	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Order_Slip_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Order_Slip		101952
+	85424013	Star_Rating_3_Updated	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Star_Rating_3_Updated_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Star Rating\Star_Rating_3_Updated		837964
+	116040162	Hob Goblins Soundtrack Main Loop	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Hob Goblins Soundtrack Main Loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Main Loop\Hob Goblins Soundtrack Main Loop\Hob Goblins Soundtrack Main Loop		17890440
+	117245088	Bubbling_Loop	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Bubbling_Loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Bubbling_Loop		2002752
+	159372743	FtStp_Heel_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Heel\FtStp_Heel_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Heel\FtStp_Heel_1		17216
+	172034549	FtStp_Toe_3	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Toe\FtStp_Toe_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Toe\FtStp_Toe_3		19176
+	189580282	FtStp_Toe_2	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Toe\FtStp_Toe_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Toe\FtStp_Toe_2		28512
+	251424087	Item_Pickup_WIP	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Item_Pickup_WIP_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Item_Pickup_WIP		255024
+	273107654	Fire Med Intensity_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fire Med Intensity_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Fire Med Intensity_1		2766016
+	297793268	Bubbles High Intens	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Bubbles High Intens_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Bubbles High Intens		2077352
+	305799641	Slime_5	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_5		245312
+	307450136	Blender_Layer_3	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Blender_Layer_3_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blending Minigame\New Blend Container\Blender_Layer_3		304196
+	332760213	FtStp_Toe_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Toe\FtStp_Toe_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Toe\FtStp_Toe_1		21948
+	354136211	Fart_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fart_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Farts\Fart_1		239680
+	359756073	Main_Menu_Start_Game	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Main_Menu_Start_Game_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Main_Menu_Start_Game		195224
+	371841064	Big_Goblin_Snoring	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Big_Goblin_Snoring_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Big_Goblin_Snoring		4009756
+	380403093	Slingshot_Release_2	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slingshot Release\Slingshot_Release_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Serving Minigame\Slingshot\Slingshot Release\Slingshot_Release_2		355392
+	386633904	Knives_4_Rework	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Knives_4_Rework_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slicing Minigame\Knife\Knives_4_Rework		159060
+	390315491	FtStp_Heel_5	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Heel\FtStp_Heel_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Heel\FtStp_Heel_5		17956
+	395049548	Knives_3_Rework	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Knives_3_Rework_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slicing Minigame\Knife\Knives_3_Rework		157180
+	403080155	Star_Rating_1_Updated	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Star_Rating_1_Updated_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Star Rating\Star_Rating_1_Updated		837964
+	420726158	FtStp_Heel_4	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Heel\FtStp_Heel_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Heel\FtStp_Heel_4		19204
+	423672741	Slime_6	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_6		197568
+	446505588	Star_Rating_4_Updated	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Star_Rating_4_Updated_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Star Rating\Star_Rating_4_Updated		837964
+	474039061	Fart_6	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fart_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Farts\Fart_6		301608
+	486980052	Hob Goblins Soundtrack Intro Loop	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Hob Goblins Soundtrack Intro Loop_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Start\Hob Goblins Soundtrack Intro Loop\Hob Goblins Soundtrack Intro Loop		1365744
+	497778858	Menu_Select	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Menu_Select_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Menu_Select		162532
+	508715773	FtStp_Heel_3	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Heel\FtStp_Heel_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Heel\FtStp_Heel_3		21576
+	509368464	Knives_1_Rework	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Knives_1_Rework_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slicing Minigame\Knife\Knives_1_Rework		139304
+	528692301	Fart_4	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fart_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Farts\Fart_4		317632
+	550287870	Blender_Layer_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Blender_Layer_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blending Minigame\New Blend Container\Blender_Layer_1		350160
+	559247323	Fire High Intensity_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fire High Intensity_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Fire High Intensity_1		3036968
+	574062585	Slime_7	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_7		260672
+	575918238	Star_Rating_2_Updated	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Star_Rating_2_Updated_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Star Rating\Star_Rating_2_Updated		837964
+	620402201	Fart_5	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fart_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Farts\Fart_5		292160
+	635740059	Slime_4	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_4		232512
+	637771414	Fire Very High Intensity_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fire Very High Intensity_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Fire Very High Intensity_1		2916544
+	641420968	FtStp_Toe_5	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Toe\FtStp_Toe_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Toe\FtStp_Toe_5		27948
+	659161544	Knives_2_Rework	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Knives_2_Rework_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Slicing Minigame\Knife\Knives_2_Rework		159060
+	664623988	Bubbles Low Intens	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Bubbles Low Intens_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Bubbles Low Intens		1606012
+	680038128	Hob Goblins Soundtrack Start	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Hob Goblins Soundtrack Start_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Switch Container\Start\Hob Goblins Soundtrack Start\Hob Goblins Soundtrack Start		409768
+	680576256	Fart_2	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fart_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Farts\Fart_2		261184
+	685670057	WIndow	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\WIndow_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\WIndow		103744
+	790290913	Money	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Money_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Money		72512
+	797930773	Slingshot_Release_3	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slingshot Release\Slingshot_Release_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Serving Minigame\Slingshot\Slingshot Release\Slingshot_Release_3		305216
+	806239904	FtStp_Heel_2	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Heel\FtStp_Heel_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Heel\FtStp_Heel_2		14840
+	806567518	Oven_Minigame_Hit	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Oven_Minigame_Hit_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven_Minigame_Hit		410256
+	847390134	Slime_2	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_2		177024
+	862549321	player_touchinput	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\player_touchinput_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\player_touchinput		13120
+	875697167	Slingshot_Release_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slingshot Release\Slingshot_Release_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Serving Minigame\Slingshot\Slingshot Release\Slingshot_Release_1		376256
+	903111696	Slime_3	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slime\Slime_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Slime\Slime_3		226880
+	905665323	Star_Rating_5_Updated	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Star_Rating_5_Updated_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Star Rating\Star_Rating_5_Updated		1234864
+	910487222	Blender_Layer_2	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Blender_Layer_2_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blending Minigame\New Blend Container\Blender_Layer_2		2063944
+	948089722	Slingshot_Tension_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slingshot_Tension_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Serving Minigame\Slingshot\Slingshot_Tension_1		491200
+	964740033	3_Second_Timer	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\3_Second_Timer_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\3_Second_Timer		636200
+	970830589	FtStp_Toe_4	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Footsteps\Stone\Toe\FtStp_Toe_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\Toe\FtStp_Toe_4		20124
+	971954926	Fire Low Intensity_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fire Low Intensity_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Fire Low Intensity_1		2130036
+	988964709	Bubbles Med Intens	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Bubbles Med Intens_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Bubbles Med Intens		2028432
+	1041384160	Fire Ultra Intensity_1	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fire Ultra Intensity_1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oven Minigame\Oven Minigame\Fire Ultra Intensity_1		3172444
+	1051661395	Fire_Loop	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Fire_Loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main Level\Fire_Loop		2244160
+	1066088569	Slingshot Impact	D:\Team 17 Project Source Control\Wwise Project\.cache\Android\SFX\Slingshot Impact_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Serving Minigame\Slingshot\Slingshot Impact		127956
+

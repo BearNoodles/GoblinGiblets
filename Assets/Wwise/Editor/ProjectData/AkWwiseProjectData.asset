@@ -1,0 +1,853 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82a0b612b394794d942327847211d45, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - Guid: '{6B1D5BB1-FB28-4768-916E-D3FEA64E2985}'
+    m_lastTimePart2: -1999220798
+    m_lastTimePsrt1: 1051840456
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  - Guid: '{463D666B-3CA8-4FA5-8B4A-5FEF12B883F6}'
+    m_lastTimePart2: -1999223417
+    m_lastTimePsrt1: -1923341781
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    List:
+    - Guid: f2532d2fccda8e408b8898b1b52a26d6
+      ID: -126323319
+      Name: Acoustic_Banner
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+    - Guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      ID: 1873957695
+      Name: Anechoic
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+    - Guid: a9a586b004f2534ca838bdb18b18f6d6
+      ID: 504532776
+      Name: Brick
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+    - Guid: 8975223456dc604296c4b9f4b669092b
+      ID: -1882360988
+      Name: Carpet
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+    - Guid: 001cf85c9628e04aaf7c3080bdaba682
+      ID: 841620460
+      Name: Concrete
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+    - Guid: 19c9d2305f92434189063dbb3c4ae5e2
+      ID: -1099468548
+      Name: Cork_Tiles
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+    - Guid: 339ee6f8975c6849b508a1535f2d66e8
+      ID: -1366806192
+      Name: Curtains
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+    - Guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      ID: -624659732
+      Name: Drywall
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+    - Guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      ID: 1970351858
+      Name: Fabric
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+    - Guid: 313793c51a00b44a98dd9b033a8c8eab
+      ID: 513139656
+      Name: Mountain
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+    - Guid: c4da82a82a13b747ba9db9907ba29cc0
+      ID: -1657378743
+      Name: Tile
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+    - Guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      ID: 2058049674
+      Name: Wood
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+    - Guid: e5d1857ba2c1634e9a13cec54b641adc
+      ID: -32444547
+      Name: Wood_Bright
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+    - Guid: 8e474652dac50c4ea0dec98d1479529a
+      ID: 1755085759
+      Name: Wood_Deep
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+  autoPopulateEnabled: 1
+  AuxBusWwu:
+  - Guid: '{FADFEFDD-59B1-4A04-B6C8-F43B48B486A4}'
+    m_lastTimePart2: -1999199478
+    m_lastTimePsrt1: -1877388149
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{E988D4DE-B365-4BEE-BF55-79FC586722F9}'
+    m_lastTimePart2: -1999189612
+    m_lastTimePsrt1: 385999283
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 4a394c8e5fc49e4e82d9095804ac4e85
+      ID: -1164446719
+      Name: Main_Level
+      Path: Default Work Unit\Main_Level
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main_Level
+        ObjectType: 7
+  basePath: Audio\GeneratedSoundBanks
+  callbackManagerBufferSize: 4
+  CurrentPluginConfig: 
+  defaultPoolSize: 4096
+  EventWwu:
+  - Guid: '{E3107A73-9DB5-426B-9AC6-36CC33890F2E}'
+    m_lastTimePart2: -1999189612
+    m_lastTimePsrt1: 385899469
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: 5a24a3716ed0034b8fd31fa83b56fb3d
+      ID: -1260343635
+      Name: ATMOS
+      Path: Default Work Unit\Main Level\ATMOS
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: ATMOS
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c3daa04e9e377649a94190c8be8850b9
+      ID: -1629734641
+      Name: Blending_Minigame_Start
+      Path: Default Work Unit\Blending Minigame\Blending_Minigame_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Blending Minigame
+        ObjectType: 4
+      - ElementName: Blending_Minigame_Start
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 18b8eef6e4ffc84cbe9a204a8443bcac
+      ID: 714044821
+      Name: Blending_Minigame_Stop
+      Path: Default Work Unit\Blending Minigame\Blending_Minigame_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Blending Minigame
+        ObjectType: 4
+      - ElementName: Blending_Minigame_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 73e3d2b4210dc345bc593d473d28a7bd
+      ID: -1096310
+      Name: Bubbling
+      Path: Default Work Unit\Main Level\Bubbling
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Bubbling
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 05a733e669d3fe4aa0f48d0d0cf6470e
+      ID: -1955967277
+      Name: Farts
+      Path: Default Work Unit\Oven Minigame\Farts
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oven Minigame
+        ObjectType: 4
+      - ElementName: Farts
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8337a0f2e1690e41b3214102fa1b698c
+      ID: -1616086583
+      Name: Fire
+      Path: Default Work Unit\Main Level\Fire
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Fire
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 480104f71f4f634c97a7c7fc8318ed4c
+      ID: -1909339098
+      Name: Footsteps
+      Path: Default Work Unit\Player\Footsteps
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e6dff593e1cd1042993d8946ecb3239a
+      ID: -982897452
+      Name: Knife
+      Path: Default Work Unit\Slicing Minigame\Knife
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Slicing Minigame
+        ObjectType: 4
+      - ElementName: Knife
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 903cafff8138804ca950803bf3520716
+      ID: -1961948374
+      Name: Main_Menu_Start_Game
+      Path: Default Work Unit\UI\Main_Menu_Start_Game
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Main_Menu_Start_Game
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 075c15e75a4ec94292efe0fffb680433
+      ID: -91591945
+      Name: Menu_Select
+      Path: Default Work Unit\UI\Menu_Select
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Menu_Select
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 2ced7b4046b5e942acccaed619b4090c
+      ID: 758863303
+      Name: Money
+      Path: Default Work Unit\Money
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Money
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: fb0aac4b26cb634e929db9e75910757e
+      ID: -303024426
+      Name: Music
+      Path: Default Work Unit\Music\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f7ebe88e910fea40b3417cd0e97bcb1b
+      ID: -1067786235
+      Name: Music_Stop
+      Path: Default Work Unit\Music\Music_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Music_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: dac0ec4f859b7442831d8f91cea3c70a
+      ID: 493307972
+      Name: Order_Slip
+      Path: Default Work Unit\UI\Order_Slip
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Order_Slip
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: dfad5416eccbc542a494c4466dc5a5f4
+      ID: 1429340153
+      Name: Oven_Hit
+      Path: Default Work Unit\Oven Minigame\Oven_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oven Minigame
+        ObjectType: 4
+      - ElementName: Oven_Hit
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9759fcd295474d4fbdb6a6dbd795c383
+      ID: -658600516
+      Name: Oven_Minigame_Start
+      Path: Default Work Unit\Oven Minigame\Oven_Minigame_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oven Minigame
+        ObjectType: 4
+      - ElementName: Oven_Minigame_Start
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9d4589a42f24314394da3434e3ace7b1
+      ID: -1729568240
+      Name: Oven_Minigame_Stop
+      Path: Default Work Unit\Oven Minigame\Oven_Minigame_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oven Minigame
+        ObjectType: 4
+      - ElementName: Oven_Minigame_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 11c3900deaa49e4ea8006bd75739dcca
+      ID: 902717029
+      Name: Pickup_Item
+      Path: Default Work Unit\Player\Pickup_Item
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Pickup_Item
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 28ab10dcc5d6614ba00368187a2c0d11
+      ID: -1996425404
+      Name: Player_Movement_Command
+      Path: Default Work Unit\UI\Player_Movement_Command
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Player_Movement_Command
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7ab5a0ece1605c44a3742fa56dd21b68
+      ID: -490967473
+      Name: Slime
+      Path: Default Work Unit\Main Level\Slime
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Slime
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e0436a3e706722499e5d324bc596f6bc
+      ID: 742735832
+      Name: Slingshot_Projectile_Hit
+      Path: Default Work Unit\Slingshot Minigame\Slingshot_Projectile_Hit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Slingshot Minigame
+        ObjectType: 4
+      - ElementName: Slingshot_Projectile_Hit
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d7e76b70ea203448b8dddcc47888f25d
+      ID: 1592313777
+      Name: Slingshot_Projectile_Miss
+      Path: Default Work Unit\Slingshot Minigame\Slingshot_Projectile_Miss
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Slingshot Minigame
+        ObjectType: 4
+      - ElementName: Slingshot_Projectile_Miss
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8c02689b5d822f40b244ff3c58eeed6c
+      ID: 1712374770
+      Name: Slingshot_Release
+      Path: Default Work Unit\Slingshot Minigame\Slingshot_Release
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Slingshot Minigame
+        ObjectType: 4
+      - ElementName: Slingshot_Release
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e5e206faedd3f24ca1fdd318a3ca65d3
+      ID: 1155877783
+      Name: Slingshot_Tension
+      Path: Default Work Unit\Slingshot Minigame\Slingshot_Tension
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Slingshot Minigame
+        ObjectType: 4
+      - ElementName: Slingshot_Tension
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 406f2fa3520739438b48a8a5c82fb588
+      ID: -1090567973
+      Name: Star_Rating_1
+      Path: Default Work Unit\Main Level\Star Rating\Star_Rating_1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Star Rating
+        ObjectType: 4
+      - ElementName: Star_Rating_1
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 00fb066767bcdb4891c709705f0d464e
+      ID: -1090567976
+      Name: Star_Rating_2
+      Path: Default Work Unit\Main Level\Star Rating\Star_Rating_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Star Rating
+        ObjectType: 4
+      - ElementName: Star_Rating_2
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8ae254336db2f547bf1ab95342fb9be1
+      ID: -1090567975
+      Name: Star_Rating_3
+      Path: Default Work Unit\Main Level\Star Rating\Star_Rating_3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Star Rating
+        ObjectType: 4
+      - ElementName: Star_Rating_3
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 14f90cb2fc0df744bcb18254c24f5526
+      ID: -1090567970
+      Name: Star_Rating_4
+      Path: Default Work Unit\Main Level\Star Rating\Star_Rating_4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Star Rating
+        ObjectType: 4
+      - ElementName: Star_Rating_4
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b0d4df0d1af53043bd4db03be1a8825f
+      ID: -1090567969
+      Name: Star_Rating_5
+      Path: Default Work Unit\Main Level\Star Rating\Star_Rating_5
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Star Rating
+        ObjectType: 4
+      - ElementName: Star_Rating_5
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d7375d3d3d9c4744b42c3d0ba707b42f
+      ID: 1242291572
+      Name: Three_Second_Timer
+      Path: Default Work Unit\UI\Three_Second_Timer
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Three_Second_Timer
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 12f455abb946fc41bdc142b6b6013646
+      ID: -1964510107
+      Name: Window
+      Path: Default Work Unit\Main Level\Window
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main Level
+        ObjectType: 4
+      - ElementName: Window
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /Team 17
+  - /Team 17/Events
+  - /Team 17/Events/Default Work Unit
+  - /Team 17/Events/Default Work Unit/UI
+  language: English(US)
+  lowerPoolSize: 2048
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  memoryCutoffThreshold: 0.95
+  preparePoolSize: 0
+  RtpcWwu:
+  - Guid: '{20CA0DEF-C932-450E-94D6-991A7938B7F4}'
+    m_lastTimePart2: -1999189655
+    m_lastTimePsrt1: 1362054735
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List:
+    - Guid: 35ab337681f98f40916207f96bc45d35
+      ID: -1667600799
+      Name: blendingScoreRTPC
+      Path: Default Work Unit\blendingScoreRTPC
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: blendingScoreRTPC
+        ObjectType: 13
+    - Guid: 691501c945af964d918453b8916dbb77
+      ID: 1778026429
+      Name: Oven_Minigame
+      Path: Default Work Unit\Oven_Minigame
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Oven_Minigame
+        ObjectType: 13
+  - Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
+    m_lastTimePart2: -1999223417
+    m_lastTimePsrt1: 1933800539
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    List:
+    - Guid: 59062ef746431c4ea1b1dab46a05101e
+      ID: 1351367891
+      Name: SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+    - Guid: 37fe2d2f9e4f944d83d853cca39781ad
+      ID: -1292209176
+      Name: SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+    - Guid: dc79aea23acaba4696529986c322a87b
+      ID: 1029930033
+      Name: SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+    - Guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      ID: -1646418679
+      Name: SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+    - Guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      ID: -447042342
+      Name: SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+    - Guid: ab9048a3d5b92645a64d5290c43ef2dc
+      ID: 822163944
+      Name: SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+    - Guid: efeb291393a12e47a38c64668b494879
+      ID: -1220270574
+      Name: SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+    - Guid: db8c3fe9d1063747acaf7cd44bbed783
+      ID: -579304704
+      Name: SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+    - Guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      ID: -1091570167
+      Name: SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+    - Guid: 197ba8edaa73a0409f192073606db710
+      ID: -134719478
+      Name: SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+  StateWwu:
+  - Guid: '{32B3B107-429A-482E-A083-D1FA4BCE898A}'
+    m_lastTimePart2: -1999198211
+    m_lastTimePsrt1: -175188685
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List:
+    - Guid: 55600392ef5a8841930a5465dae1dc59
+      ID: -303024426
+      Name: Music
+      Path: Default Work Unit\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 9
+      ValueGuids:
+      - bytes: 827dcce0e42ad84183dcd9aa230a0373
+      - bytes: de4fd9d598017c45be1296382330dd21
+      - bytes: 4c8fe8bf57a7a54f8cd21bf2c9592475
+      ValueIcons:
+      - ElementName: Main_Loop
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Start
+        ObjectType: 8
+      valueIDs: 4bf54ae3db3ba32cf7e1664c
+      values:
+      - Main_Loop
+      - None
+      - Start
+  streamingPoolSize: 1024
+  SwitchWwu:
+  - Guid: '{AB8C584D-7193-41FA-A031-5B7C1FED3ABD}'
+    m_lastTimePart2: -1999198211
+    m_lastTimePsrt1: -175258612
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List:
+    - Guid: 0357bbe809ece04383224cae4453c1a6
+      ID: 1265478494
+      Name: Footstep_Surfaces
+      Path: Default Work Unit\Footstep_Surfaces
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep_Surfaces
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 7e048a69754189459b3dc2ae5dff5817
+      ValueIcons:
+      - ElementName: Stone
+        ObjectType: 10
+      valueIDs: 1c6d8948
+      values:
+      - Stone
+  TriggerWwu:
+  - Guid: '{E47AE2E2-2AD0-446D-9D5E-AD0E197C80C8}'
+    m_lastTimePart2: -1999220798
+    m_lastTimePsrt1: 1052435618
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []

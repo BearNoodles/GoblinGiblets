@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>E:\Goblin\goblin\Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>E:\Goblin\goblin\Wwise Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Goblin\goblin\Wwise Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Goblin\goblin\Wwise Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="702482391" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game</ObjectPath>
+			<ShortName>Game</ShortName>
+			<Path>Game.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3034623661" Name="ATMOS" ObjectPath="\Events\Default Work Unit\ATMOS"/>
+				<Event Id="4293870986" Name="Bubbling" ObjectPath="\Events\Default Work Unit\Bubbling"/>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Fire"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="3312069844" Name="Knife" ObjectPath="\Events\Default Work Unit\Knife"/>
+				<Event Id="758863303" Name="Money" ObjectPath="\Events\Default Work Unit\Money"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
+				<Event Id="493307972" Name="Order_Slip" ObjectPath="\Events\Default Work Unit\Order_Slip"/>
+				<Event Id="3803999823" Name="Slime" ObjectPath="\Events\Default Work Unit\Slime"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="32511433" Language="SFX">
+					<ShortName>Slime\Slime_1.wav</ShortName>
+					<Path>SFX\Slime\Slime_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="40214543" Language="SFX">
+					<ShortName>ATMOS_Loop.wav</ShortName>
+					<Path>SFX\ATMOS_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="56496368" Language="SFX">
+					<ShortName>Knife\Knife_1.wav</ShortName>
+					<Path>SFX\Knife\Knife_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="74185425" Language="SFX">
+					<ShortName>Order_Slip.wav</ShortName>
+					<Path>SFX\Order_Slip_1C9C67B2.wem</Path>
+				</File>
+				<File Id="117245088" Language="SFX">
+					<ShortName>Bubbling_Loop.wav</ShortName>
+					<Path>SFX\Bubbling_Loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="159372743" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_1.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="162704594" Language="SFX">
+					<ShortName>Knife\Knife_4.wav</ShortName>
+					<Path>SFX\Knife\Knife_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="172034549" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_3.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="189580282" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_2.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="305799641" Language="SFX">
+					<ShortName>Slime\Slime_5.wav</ShortName>
+					<Path>SFX\Slime\Slime_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="332760213" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_1.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="390315491" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_5.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="409002181" Language="SFX">
+					<ShortName>Knife\Knife_2.wav</ShortName>
+					<Path>SFX\Knife\Knife_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="420726158" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_4.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="423672741" Language="SFX">
+					<ShortName>Slime\Slime_6.wav</ShortName>
+					<Path>SFX\Slime\Slime_6_1C9C67B2.wem</Path>
+				</File>
+				<File Id="508715773" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_3.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="574062585" Language="SFX">
+					<ShortName>Slime\Slime_7.wav</ShortName>
+					<Path>SFX\Slime\Slime_7_1C9C67B2.wem</Path>
+				</File>
+				<File Id="635740059" Language="SFX">
+					<ShortName>Slime\Slime_4.wav</ShortName>
+					<Path>SFX\Slime\Slime_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="641420968" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_5.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="727857731" Language="SFX">
+					<ShortName>Knife\Knife_3.wav</ShortName>
+					<Path>SFX\Knife\Knife_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="790290913" Language="SFX">
+					<ShortName>Money.wav</ShortName>
+					<Path>SFX\Money_1C9C67B2.wem</Path>
+				</File>
+				<File Id="806239904" Language="SFX">
+					<ShortName>Footsteps\Stone\Heel\FtStp_Heel_2.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Heel\FtStp_Heel_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="821921238" Language="SFX">
+					<ShortName>Goblins Sketch Track.wav</ShortName>
+					<Path>SFX\Goblins Sketch Track_F17FB28C.wem</Path>
+				</File>
+				<File Id="847390134" Language="SFX">
+					<ShortName>Slime\Slime_2.wav</ShortName>
+					<Path>SFX\Slime\Slime_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="903111696" Language="SFX">
+					<ShortName>Slime\Slime_3.wav</ShortName>
+					<Path>SFX\Slime\Slime_3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="970830589" Language="SFX">
+					<ShortName>Footsteps\Stone\Toe\FtStp_Toe_4.wav</ShortName>
+					<Path>SFX\Footsteps\Stone\Toe\FtStp_Toe_4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1051661395" Language="SFX">
+					<ShortName>Fire_Loop.wav</ShortName>
+					<Path>SFX\Fire_Loop_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

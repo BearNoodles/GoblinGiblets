@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{21633C79-67D7-4E0F-BD33-D8DC405C768A}" SchemaVersion="85">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{21633C79-67D7-4E0F-BD33-D8DC405C768A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Time_Stretch" ID="{9573BE3C-2695-4423-94AA-6A381AF83677}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D2D8FC07-406C-4E51-87E5-567F504167EA}" ShortID="317904813">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="blendingScoreRTPC" ID="{7633AB35-F981-408F-9162-07F96BC45D35}" WorkUnitID="{20CA0DEF-C932-450E-94D6-991A7938B7F4}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7065ABB0-2864-4876-A0BA-F00E651966DA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>25</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>300</XPos>
+												<YPos>74.51457</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Time_Stretch_01" ID="{D211FE99-AEF2-48AC-AB79-69765C3EEB85}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{1437E217-F1C5-4F46-865B-A887A3AABCEA}" ShortID="244572636">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="blendingScoreRTPC" ID="{7633AB35-F981-408F-9162-07F96BC45D35}" WorkUnitID="{20CA0DEF-C932-450E-94D6-991A7938B7F4}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{317E548E-F4F4-4805-A9DD-8807F8997008}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>125</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>59.85036</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>209.47332</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>300</XPos>
+												<YPos>50</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
